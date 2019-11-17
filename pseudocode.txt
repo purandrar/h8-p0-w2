@@ -6,10 +6,11 @@ simapn hasil ke F
 
 tugas 2
 masukan tahun dan simpan ke var tahun
-jika tahun modulo 4 = 0  dan tahun modulo 100 tidak sama dengan 0
-    maka  "output tahun adalah kabisat"
-jika tahun modulo 4 = 0
-
+jika (tahun % 4 = 0  dan tahun % 100 !=0) atau (tahun % 4 = 0 dan tahun % 100 = 0 dan tahun % 400 = 0)
+    maka hasil "tahun adalah kabisat"
+lainnya
+    maka hasil "tahun bukan tahun kabisat"
+    
 tugas 3
 var baju = 20
 var isiMesinCuci = 0 
