@@ -1,0 +1,28 @@
+tugas 1
+simpan 600 ke var m
+simpan 2 ke var a
+hitung m(600) x a(2)
+simapn hasil ke F
+
+tugas 2
+masukan tahun dan simpan ke var tahun
+jika tahun modulo 4 = 0  dan tahun modulo 100 tidak sama dengan 0
+    maka  "output tahun adalah kabisat"
+jika tahun modulo 4 = 0
+
+tugas 3
+var baju = 20
+var isiMesinCuci = 0 
+selama isiMesinCuci belum 20
+    maka isiMesinCuci bertambah 1
+mesin bisa dinyalakan
+
+tugas 4
+simpan 40 kedalam variable jumlahMurid
+var muridYgDiperiksa = 0
+selama muridYgDiperiksa belum 40
+    jika murid berkuku panjang
+        maka guru menghukum
+    lainnya 
+        maka guru memuji
+    muridYgDiperiksa bertambah 1
