@@ -1,29 +1,51 @@
 tugas 1
-simpan 600 ke var m
-simpan 2 ke var a
-hitung m(600) x a(2)
-simapn hasil ke F
+Set m to 600
+set a to 2
+Compute result as m X a
+PRINT result
+
+
 
 tugas 2
-masukan tahun dan simpan ke var tahun
-jika (tahun % 4 = 0  dan tahun % 100 !=0) atau (tahun % 4 = 0 dan tahun % 100 = 0 dan tahun % 400 = 0)
-    maka hasil "tahun adalah kabisat"
-lainnya
-    maka hasil "tahun bukan tahun kabisat"
-    
+SET year 1989
+ IF ((year % 4 == 0  AND year % 100 != 0) OR (year %4 == 0 AND year % 100 == 0 AND year % 400 == 0))
+	THEN 
+		PRINT "LEAP YEAR"
+ ELSE
+	THEN 
+		PRINT "COMMON YEAR"	
+ ENDIF
+
+
 tugas 3
-var baju = 20
-var isiMesinCuci = 0 
-selama isiMesinCuci belum 20
-    maka isiMesinCuci bertambah 1
-mesin bisa dinyalakan
+Set baju to 20
+Set isiMesinCuci to 0
+WHILE isiMesinCuci < 20
+	THEN 
+		INCREMENT isiMesinCuci 
+ENDWHILE
+
+
 
 tugas 4
-simpan 40 kedalam variable jumlahMurid
-var muridYgDiperiksa = 0
-selama muridYgDiperiksa belum 40
-    jika murid berkuku panjang
-        maka guru menghukum
-    lainnya 
-        maka guru memuji
-    muridYgDiperiksa bertambah 1
+Set jumlahMurid to 40
+set muridYgDiperiksa to 0
+WHILE muridYgDiperiksa <= 40
+	THEN 
+		IF muridBerkukuPanjang
+			THEN 
+				PRINT "guru menghukum"
+		ELSE IF muridBerkukuPendek
+			THEN
+				PRINT "guru memuji"
+		ENDIF
+		increment muridYgDiperiksa
+
+ENDWHILE
+
+
+
+
+
+
+
