@@ -12,15 +12,15 @@ console.log("");
 
 //tugas 2
 console.log("tugas 2");
-var rows2 = 5;
+var rows2 = 9;
 var row = rows2;
-var sterne = "*"
-while(rows2>0){
-    while(row<5){
-        sterne=+"*";
-        row++;
+
+while(rows2 > 0){
+    var sterne = "*"
+    for(var i = 0; i < row; i++){
+        sterne+="*";
     }
-    console.log("*****");
+    console.log(sterne);
     rows2--;
 }
 console.log("--------");
@@ -30,7 +30,7 @@ console.log("");
 
 //tugas 3
 console.log("tugas 3");
-var rows3 = 5;
+var rows3 = 9;
 for(var i = 1; i <= rows3; i++){
     var bintang="*";	
     for (var j = 1; j < i; j++){
