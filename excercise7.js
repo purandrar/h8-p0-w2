@@ -13,10 +13,13 @@ console.log("");
 //tugas 2
 console.log("tugas 2");
 var rows2 = 5;
+var row = rows2;
 var sterne = "*"
-while(rows2<5)
-sterne=+"*"
 while(rows2>0){
+    while(row<5){
+        sterne=+"*";
+        row++;
+    }
     console.log("*****");
     rows2--;
 }
